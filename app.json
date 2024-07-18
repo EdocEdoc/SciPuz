@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "SciPuz",
+    "slug": "SciPuz",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/ic_launcher-661c9aabe8846/android/ic_launcher-web.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ic_launcher-661c9aabe8846/android/ic_launcher-web.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.bytepulse.scipuz"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf",
+            "./assets/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf"
+          ]
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/ic_launcher-661c9aabe8846/android/ic_launcher-web.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2a9aebae-09fa-454b-a7d0-b73c2a8c98d7"
+      }
+    }
+  }
+}
